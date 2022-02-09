@@ -1,0 +1,14 @@
+.box {
+    background-color: darkcyan;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nested {
+    background-color: green;
+    height: 40px;
+    border: 1px solid darkcyan;
+}
