@@ -13,7 +13,19 @@
     height: 48px;
     line-height: 28px;
     text-align: center;
-    border: 10px solid darkcyan;
+    border-top: 10px solid darkcyan;
+    border-bottom: 10px solid darkcyan;
+    border-left: 2px solid darkcyan;
+    border-right: 2px solid darkcyan;
+    overflow: hidden;
+}
+
+.nested-first {
+    border-left: 10px solid darkcyan;
+}
+
+.nested-last{
+    border-right: 10px solid darkcyan;
 }
 
 .block {
