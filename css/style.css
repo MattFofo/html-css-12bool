@@ -10,8 +10,10 @@
 
 .nested {
     background-color: green;
-    height: 40px;
-    border: 1px solid darkcyan;
+    height: 48px;
+    line-height: 28px;
+    text-align: center;
+    border: 10px solid darkcyan;
 }
 
 .block {
