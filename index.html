@@ -19,7 +19,9 @@
             <!-- prima riga -->
             <div class="row">
                 <div class="col-1">
-                    <div class="box">1 col</div>
+                    <div class="box">
+                        <div class="box-text">1 col</div>
+                    </div>
                 </div>
                 <div class="col-1">
                     <div class="box">1 col</div>
@@ -95,34 +97,43 @@
             </div>
         </div>
 
-        <!-- sesta riga -->
+        <!-- sesta riga -->             <!--FIXME: qualcosa non va nel layout dei box innestati-->
         <div class="row">
 
             <div class="col-6">
 
-                <div class="box">
+                <div class="box block">
 
                     <div class="row">
 
                         <div class="col-2">
-                            <div class="nested"></div>
+                            <div class="nested">Nested 2 col</div>
                         </div>
 
                         <div class="col-2">
-                            <div class="nested"></div>
+                            <div class="nested">Nested 2 col</div>
                         </div>
 
                         <div class="col-8">
-                            <div class="nested"></div>
+                            <div class="nested">Nested 8 col</div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-6">
-                <div class="box">
+
+                <div class="box block">
+
                     <div class="row">
-                        <div class="col-6"><div class="nested"></div></div>
-                        <div class="col-6"><div class="nested"></div></div>
+
+                        <div class="col-6">
+                            <div class="nested">Nested 6 col</div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="nested">Nested 6 col</div>
+                        </div>
                     </div>
                 </div>
             </div>
