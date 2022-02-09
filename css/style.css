@@ -21,3 +21,12 @@
 .mt20 {
     margin-top: 20px;
 }
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.section-bottom .box {
+    border-right: none;
+    border-left: none;
+}
