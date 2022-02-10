@@ -6,10 +6,12 @@
 
 
 .container {
-    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .row {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,6 +19,16 @@
 
 
 /* col */
+
+
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
+.col {
+    flex: 0 1 auto;
+    max-width: 100%;
+}
 
 .col-1 {
     flex-basis: calc((100% / 12) * 1);

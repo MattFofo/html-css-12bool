@@ -1,35 +1,24 @@
-.box {
+
+
+[class*="col-"] {
     background-color: darkcyan;
-    height: 50px;
-    border: 1px solid white;
+    padding: 1rem;
+    border: 1px solid rgb(255, 255, 255);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 50px;
+    
 }
 
 .nested {
-    background-color: green;
-    height: 48px;
-    line-height: 28px;
-    text-align: center;
-    border-top: 10px solid darkcyan;
-    border-bottom: 10px solid darkcyan;
-    border-left: 2px solid darkcyan;
-    border-right: 2px solid darkcyan;
-    overflow: hidden;
+   
+    padding: .5rem;
 }
 
-.nested-first {
-    border-left: 10px solid darkcyan;
-}
-
-.nested-last{
-    border-right: 10px solid darkcyan;
-}
-
-.block {
-    display: block;
+.nested [class*="col-"] {
+    background-color: aquamarine;
 }
 
 .mt20 {

@@ -19,9 +19,7 @@
             <!-- prima riga -->
             <div class="row">
                 <div class="col-1">
-                    <div class="box">
-                        <div class="box-text">1 col</div> <!--FIXME: meglio avere un contenitore per il testo?-->
-                    </div>
+                    <div class="box">1 col</div>
                 </div>
                 <div class="col-1">
                     <div class="box">1 col</div>
@@ -97,42 +95,42 @@
             </div>
         </div>
 
-        <!-- sesta riga -->             <!--FIXME: qualcosa non va nel layout dei box innestati-->
-        <div class="row">
+        <!-- sesta riga -->             
 
             <div class="col-6">
 
-                <div class="box block">
+                
 
-                    <div class="row">
-
-                        <div class="col-2">
-                            <div class="nested nested-first">Nested 2 col</div>
-                        </div>
-
-                        <div class="col-2">
-                            <div class="nested">Nested 2 col</div>
-                        </div>
+                    <div class="row nested">
 
                         <div class="col-8">
-                            <div class="nested nested-last">Nested 8 col</div>
+                            <div class="">Nested 8 col</div>
                         </div>
+
+                        <div class="col-2">
+                            <div class="">Nested 2 col</div>
+                        </div>
+
+                        <div class="col-2">
+                            <div class="">Nested 2 col</div>
+                        </div>
+
+                        
                     </div>
-                </div>
+                
             </div>
 
             <div class="col-6">
 
-                <div class="box block">
 
-                    <div class="row">
+                    <div class="row nested">
 
                         <div class="col-6">
-                            <div class="nested nested-first">Nested 6 col</div>
+                            <div class="">Nested 6 col</div>
                         </div>
 
                         <div class="col-6">
-                            <div class="nested nested-last">Nested 6 col</div>
+                            <div class="">Nested 6 col</div>
                         </div>
                     </div>
                 </div>
@@ -259,9 +257,6 @@
                 <div class="box"></div>
             </div>
         </div>
-
-       
-        
     </section>
     
 </body>
